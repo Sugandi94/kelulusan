@@ -230,5 +230,27 @@
     "sekolah": "UPT SD NEGERI 067953",
     "status": "LULUS",
     "importedBy": "admin"
+  },
+  {
+    "id": "35a2537e-14a9-4216-8fce-f4a9a3b08b50",
+    "nisn": "1234567890",
+    "nama": "Sugandi",
+    "sekolah": "SDN 067250",
+    "status": "LULUS"
+  },
+  {
+    "id": "a75660ff-bf4b-4d10-a670-438f75c1bc01",
+    "nisn": "3154671776",
+    "nama": "SUGANDI",
+    "sekolah": "asa",
+    "status": "LULUS"
+  },
+  {
+    "id": "63e33bf5-3a6e-4366-a8d1-c9f1cf62da0d",
+    "nisn": "3132826196",
+    "nama": "SUGANDI",
+    "sekolah": "asdasd",
+    "status": "LULUS",
+    "importedBy": "admin1"
   }
 ]

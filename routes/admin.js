@@ -76,7 +76,7 @@ router.post('/siswa', authenticateToken, (req, res) => {
     return res.status(400).json({ message: 'Data tidak lengkap' });
   if (data.find(s => s.nisn === nisn && !s.deleted))
     return res.status(400).json({ message: 'NISN sudah ada' });
-  data.push({ id: uuidv4(), nisn, nama, sekolah, status });
+  data.push({ id: uuidv4(), nisn, nama, sekolah, status, importedBy: req.user.username });
   saveSiswa(data);
   res.json({ message: 'Siswa ditambah' });
 });
@@ -149,8 +149,8 @@ router.get('/dashboard', authenticateToken, (req, res) => {
 });
 
 router.post('/add-user', authenticateToken, async (req, res) => {
-  const { username, password } = req.body;
-  if (!username || !password) return res.status(400).json({ message: 'Username dan password harus diisi' });
+  const { username, name, password } = req.body;
+  if (!username || !name || !password) return res.status(400).json({ message: 'Username, name dan password harus diisi' });
 
   const admins = loadAdmin();
   if (admins.find(a => a.username === username)) {
@@ -158,7 +158,7 @@ router.post('/add-user', authenticateToken, async (req, res) => {
   }
 
   const hashedPassword = await bcrypt.hash(password, 10);
-  admins.push({ username, password: hashedPassword });
+  admins.push({ username, name, password: hashedPassword });
   saveAdmin(admins);
   res.json({ message: 'User admin berhasil ditambahkan' });
 });
@@ -166,7 +166,7 @@ router.post('/add-user', authenticateToken, async (req, res) => {
 // List all admin users
 router.get('/users', authenticateToken, (req, res) => {
   const admins = loadAdmin();
-  const users = admins.map(({ username }) => ({ username }));
+  const users = admins.map(({ username, name }) => ({ username, name }));
   res.json(users);
 });
 

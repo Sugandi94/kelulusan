@@ -2,5 +2,10 @@
   {
     "username": "admin",
     "password": "$2a$10$4VcdZrTvGEpzfv0eBvdNyezExUSoJQWNvkxAK0aW2jUY0vAvVIOvC"
+  },
+  {
+    "username": "admin1",
+    "name": "Sugandi",
+    "password": "$2a$10$XNoiFlCmKaTpxSpXu0pC/u4hel6dVmC9BSUH1Pl0Xuy/rCLT951Pq"
   }
 ]

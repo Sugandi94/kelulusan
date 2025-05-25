@@ -745,5 +745,883 @@
     },
     "user": null,
     "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:10:38.552Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:10:39.132Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:15:39.712Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:15:40.071Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:15:51.184Z",
+    "method": "POST",
+    "url": "/admin/add-user",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:16:00.072Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3154671776"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:16:17.494Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:16:17.841Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:16:17.863Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:22:21.557Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:22:21.752Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:22:29.536Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:22:29.649Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:24:32.376Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:24:32.686Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:24:32.702Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:24:42.558Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:24:42.709Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:25:35.638Z",
+    "method": "POST",
+    "url": "/admin/add-user",
+    "body": {
+      "username": "Sugandi",
+      "name": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:26:22.040Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:26:22.068Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:27:25.494Z",
+    "method": "POST",
+    "url": "/admin/add-user",
+    "body": {
+      "username": "Sugandi",
+      "name": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:03.520Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:03.845Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:13.292Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:13.538Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:13.609Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:19.594Z",
+    "method": "GET",
+    "url": "/api/admin/log",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:21.797Z",
+    "method": "GET",
+    "url": "/api/admin/log",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:32.251Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:32.388Z",
+    "method": "GET",
+    "url": "/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:32:49.915Z",
+    "method": "POST",
+    "url": "/admin/add-user",
+    "body": {
+      "username": "Sugandi",
+      "name": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:38:51.356Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:38:52.512Z",
+    "method": "GET",
+    "url": "/api/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:00.256Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3154671776"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:20.388Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:21.641Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:22.113Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:35.702Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:39:39.493Z",
+    "method": "GET",
+    "url": "/api/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:40:04.856Z",
+    "method": "POST",
+    "url": "/api/admin/add-user",
+    "body": {
+      "username": "admin1",
+      "name": "Sugandi",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:40:07.217Z",
+    "method": "GET",
+    "url": "/api/admin/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:40:28.800Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:40:29.130Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:40:29.133Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:41:19.345Z",
+    "method": "POST",
+    "url": "/api/admin/siswa",
+    "body": {
+      "nisn": "1234567890",
+      "nama": "Sugandi",
+      "sekolah": "SDN 067250",
+      "status": "LULUS"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:41:20.914Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:41:32.953Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:41:33.187Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:41:33.191Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:08.344Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:08.583Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:08.658Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:12.775Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:14.059Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:20.031Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=2&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:25.147Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:33.087Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:33.308Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:45:33.396Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:46:07.237Z",
+    "method": "POST",
+    "url": "/api/admin/siswa",
+    "body": {
+      "nisn": "3154671776",
+      "nama": "SUGANDI",
+      "sekolah": "asa",
+      "status": "LULUS"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:46:09.118Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:46:25.174Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:46:25.385Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:46:25.464Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:49:37.151Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3154671776"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:02.274Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:02.604Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:02.614Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:41.485Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:41.694Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:41.769Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:50:50.840Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=4&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:52:37.433Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:52:37.743Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:52:37.746Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:52:43.335Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=4&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:21.294Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:21.586Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:21.593Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:24.617Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:26.078Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:26.370Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=2&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:53:27.428Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:55:51.229Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:55:52.523Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:55:52.529Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:04.809Z",
+    "method": "POST",
+    "url": "/api/admin/siswa",
+    "body": {
+      "nisn": "3132826196",
+      "nama": "SUGANDI",
+      "sekolah": "asdasd",
+      "status": "LULUS"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:07.127Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:35.695Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:36.447Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:36.452Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:40.914Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:41.449Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=2&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:41.653Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:43.016Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=3&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:44.966Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=2&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:56:46.496Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:28.128Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:28.141Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:31.414Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:31.509Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:33.440Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T15:59:33.502Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:00:00.976Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:00:01.201Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:00:01.296Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:00:18.071Z",
+    "method": "GET",
+    "url": "/api/admin/export",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:00:20.471Z",
+    "method": "GET",
+    "url": "/api/admin/export",
+    "user": null,
+    "ip": "::1"
   }
 ]
