@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin User Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Pengaturan User Admin</h1>
+  <div>
+    <h2>Tambah User Baru</h2>
+    <form id="addUserForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <button type="submit">Tambah User</button>
+    </form>
+  </div>
+  <div>
+    <h2>Daftar User</h2>
+    <table id="userTable" border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- User list will be populated here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="js/admin-user.js"></script>
+</body>
+</html>

@@ -54,15 +54,17 @@ router.post('/change-password', authenticateToken, async (req, res) => {
 
 // List siswa (pencarian, pagination)
 router.get('/siswa', authenticateToken, (req, res) => {
-  let data = loadSiswa().filter(s=>!s.deleted);
-  const { q, page=1, limit=20 } = req.query;
-  if (q) data = data.filter(s =>
-    s.nama.toLowerCase().includes(q.toLowerCase()) ||
-    s.nisn.includes(q) ||
-    s.sekolah.toLowerCase().includes(q.toLowerCase())
-  );
+  let data = loadSiswa().filter(s => !s.deleted && s.importedBy === req.user.username);
+  const { q, page = 1, limit = 20 } = req.query;
+  if (q)
+    data = data.filter(
+      (s) =>
+        s.nama.toLowerCase().includes(q.toLowerCase()) ||
+        s.nisn.includes(q) ||
+        s.sekolah.toLowerCase().includes(q.toLowerCase())
+    );
   const total = data.length;
-  const slice = data.slice((page-1)*limit, page*limit);
+  const slice = data.slice((page - 1) * limit, page * limit);
   res.json({ total, data: slice });
 });
 
@@ -111,7 +113,7 @@ router.post('/import', authenticateToken, upload.single('file'), (req, res) => {
   imported.forEach(row => {
     if (!row.nisn || !row.nama || !row.sekolah || !row.status) return;
     if (!data.find(s => s.nisn == row.nisn && !s.deleted)) {
-      data.push({ id: uuidv4(), nisn: row.nisn, nama: row.nama, sekolah: row.sekolah, status: row.status });
+      data.push({ id: uuidv4(), nisn: row.nisn, nama: row.nama, sekolah: row.sekolah, status: row.status, importedBy: req.user.username });
       count++;
     }
   });
@@ -144,6 +146,28 @@ router.get('/dashboard', authenticateToken, (req, res) => {
   const lulus = data.filter(s=>!s.deleted && s.status.toUpperCase() === 'LULUS').length;
   const tidak = data.filter(s=>!s.deleted && s.status.toUpperCase() !== 'LULUS').length;
   res.json({ total, lulus, tidak });
+});
+
+router.post('/add-user', authenticateToken, async (req, res) => {
+  const { username, password } = req.body;
+  if (!username || !password) return res.status(400).json({ message: 'Username dan password harus diisi' });
+
+  const admins = loadAdmin();
+  if (admins.find(a => a.username === username)) {
+    return res.status(400).json({ message: 'Username sudah digunakan' });
+  }
+
+  const hashedPassword = await bcrypt.hash(password, 10);
+  admins.push({ username, password: hashedPassword });
+  saveAdmin(admins);
+  res.json({ message: 'User admin berhasil ditambahkan' });
+});
+
+// List all admin users
+router.get('/users', authenticateToken, (req, res) => {
+  const admins = loadAdmin();
+  const users = admins.map(({ username }) => ({ username }));
+  res.json(users);
 });
 
 module.exports = router;
