@@ -68,6 +68,20 @@ router.get('/siswa', authenticateToken, (req, res) => {
   res.json({ total, data: slice });
 });
 
+// Delete all siswa data imported by logged-in user (soft delete)
+router.delete('/siswa/delete-all', authenticateToken, (req, res) => {
+  let data = loadSiswa();
+  let count = 0;
+  data.forEach(s => {
+    if (!s.deleted && s.importedBy === req.user.username) {
+      s.deleted = true;
+      count++;
+    }
+  });
+  saveSiswa(data);
+  res.json({ message: `Berhasil menghapus ${count} data siswa.` });
+});
+
 // Tambah siswa
 router.post('/siswa', authenticateToken, (req, res) => {
   const data = loadSiswa();

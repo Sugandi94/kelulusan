@@ -1103,5 +1103,377 @@
     "url": "/api/admin/export",
     "user": null,
     "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:04.698Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:04.701Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:43.651Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:43.661Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:50.660Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:53.588Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:57.378Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:25:57.456Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:26:31.958Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:26:36.435Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:01.215Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:01.222Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:03.554Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:06.573Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:33.433Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:29:36.491Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:31:27.198Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:31:27.200Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:31:29.258Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:31:30.642Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:40:52.302Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:40:52.382Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:40:53.057Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3154671776"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:04.949Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:05.061Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:10.382Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:12.984Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:17.958Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:18.053Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:29.107Z",
+    "method": "POST",
+    "url": "/api/admin/import",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:30.288Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:43.066Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:43.315Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:43.327Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:50.336Z",
+    "method": "POST",
+    "url": "/api/admin/siswa",
+    "body": {
+      "nisn": "3154671776",
+      "nama": "SUGANDI",
+      "sekolah": "asasa",
+      "status": "LULUS"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:41:51.628Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:02.534Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:02.770Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:02.848Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:07.098Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/delete-all",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:08.800Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:15.131Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:15.198Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:35.987Z",
+    "method": "POST",
+    "url": "/api/admin/login",
+    "body": {
+      "username": "admin1",
+      "password": "admin1"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:36.228Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:36.231Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:44.313Z",
+    "method": "DELETE",
+    "url": "/api/admin/siswa/b13753df-de62-4fe7-abc9-9890e0254a54",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:45.536Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:49.908Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:42:49.911Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
   }
 ]
