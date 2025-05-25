@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "nisn": "1234567890",
+    "nama": "Budi Santoso",
+    "sekolah": "SMPN 1 Contoh",
+    "status": "LULUS"
+  },
+  {
+    "id": "2",
+    "nisn": "9876543210",
+    "nama": "Siti Aminah",
+    "sekolah": "SMPN 2 Contoh",
+    "status": "TIDAK LULUS"
+  }
+]

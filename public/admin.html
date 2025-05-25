@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin - Kelulusan</title>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    #admin-panel { display:none; margin-top:20px; }
+    input, button, select { margin:4px; font-size:1em; }
+    #daftar { margin-top:20px; }
+    table { border-collapse:collapse; width:100%; }
+    th, td { border:1px solid #ddd; padding:6px; }
+    th { background:#eee; }
+  </style>
+</head>
+<body>
+  <h1>Login Admin</h1>
+  <div id="login-form">
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+  <div id="admin-panel">
+    <button onclick="logout()">Logout</button>
+    <h2>Dashboard</h2>
+    <div id="dashboard"></div>
+    <h2>Ganti Password</h2>
+    <input id="oldpass" type="password" placeholder="Password lama">
+    <input id="newpass" type="password" placeholder="Password baru">
+    <button onclick="gantiPassword()">Ganti</button>
+    <h2>Import Siswa dari Excel</h2>
+    <input id="file" type="file">
+    <button onclick="importExcel()">Import</button>
+    <button onclick="exportExcel()">Export ke Excel</button>
+    <h2>Tambah Siswa</h2>
+    <input id="nisn" placeholder="NISN">
+    <input id="nama" placeholder="Nama">
+    <input id="sekolah" placeholder="Sekolah">
+    <select id="status">
+      <option value="LULUS">LULUS</option>
+      <option value="TIDAK LULUS">TIDAK LULUS</option>
+    </select>
+    <button onclick="tambahSiswa()">Tambah</button>
+    <h2>Daftar Siswa</h2>
+    <input id="search" placeholder="Cari nama/NISN/sekolah" oninput="loadSiswa()">
+    <div id="daftar"></div>
+    <div id="pagination"></div>
+    <h2>Log Aktivitas</h2>
+    <button onclick="loadLog()">Lihat Log</button>
+    <pre id="log"></pre>
+  </div>
+  <script>
+    let token = '', page=1, limit=10, total=0;
+    function login() {
+      fetch('/api/admin/login', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({
+          username: document.getElementById('username').value,
+          password: document.getElementById('password').value
+        })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.token) {
+          token = data.token;
+          document.getElementById('login-form').style.display = 'none';
+          document.getElementById('admin-panel').style.display = 'block';
+          loadDashboard();
+          loadSiswa();
+        } else {
+          alert('Login gagal');
+        }
+      });
+    }
+    function logout() {
+      token = '';
+      document.getElementById('admin-panel').style.display = 'none';
+      document.getElementById('login-form').style.display = 'block';
+    }
+    function gantiPassword() {
+      fetch('/api/admin/change-password', {
+        method: 'POST',
+        headers: { 'Content-Type':'application/json', 'Authorization': 'Bearer '+token },
+        body: JSON.stringify({
+          oldPassword: document.getElementById('oldpass').value,
+          newPassword: document.getElementById('newpass').value
+        })
+      })
+      .then(res=>res.json())
+      .then(data=>alert(data.message));
+    }
+    function loadDashboard() {
+      fetch('/api/admin/dashboard', {headers: {Authorization:'Bearer '+token}})
+      .then(res=>res.json()).then(d=>{
+        document.getElementById('dashboard').innerHTML =
+          `Total siswa: <b>${d.total}</b> | Lulus: <b>${d.lulus}</b> | Tidak Lulus: <b>${d.tidak}</b>`;
+      });
+    }
+    function tambahSiswa() {
+      fetch('/api/admin/siswa', {
+        method: 'POST',
+        headers: { 'Content-Type':'application/json', 'Authorization':'Bearer '+token },
+        body: JSON.stringify({
+          nisn: document.getElementById('nisn').value,
+          nama: document.getElementById('nama').value,
+          sekolah: document.getElementById('sekolah').value,
+          status: document.getElementById('status').value
+        })
+      })
+      .then(res=>res.json())
+      .then(data=>{
+        alert(data.message);
+        loadSiswa();
+      });
+    }
+    function loadSiswa(p=1) {
+      page = p;
+      let q = document.getElementById('search').value;
+      fetch(`/api/admin/siswa?page=${page}&limit=${limit}&q=${encodeURIComponent(q)}`, {
+        headers: { Authorization:'Bearer '+token }
+      })
+      .then(res=>res.json())
+      .then(resp=>{
+        total = resp.total;
+        let html = `<table><tr>
+          <th>NISN</th><th>Nama</th><th>Sekolah</th><th>Status</th><th>Edit</th><th>Hapus</th></tr>`;
+        resp.data.forEach(s => {
+          html += `<tr>
+            <td>${s.nisn}</td>
+            <td><input type="text" value="${s.nama}" id="nama${s.id}"></td>
+            <td><input type="text" value="${s.sekolah}" id="sekolah${s.id}"></td>
+            <td>
+              <select id="status${s.id}">
+                <option ${s.status==='LULUS'?'selected':''}>LULUS</option>
+                <option ${s.status!=='LULUS'?'selected':''}>TIDAK LULUS</option>
+              </select>
+            </td>
+            <td><button onclick="editSiswa('${s.id}','${s.nisn}')">Simpan</button></td>
+            <td><button onclick="hapusSiswa('${s.id}')">Hapus</button></td>
+          </tr>`;
+        });
+        html += '</table>';
+        document.getElementById('daftar').innerHTML = html;
+        // Pagination
+        let pagHtml = '';
+        let maxPage = Math.ceil(total/limit);
+        for (let i=1;i<=maxPage;i++)
+          pagHtml += `<button onclick="loadSiswa(${i})" ${i===page?'style="font-weight:bold"':''}>${i}</button> `;
+        document.getElementById('pagination').innerHTML = pagHtml;
+      });
+    }
+    function editSiswa(id, nisn) {
+      fetch('/api/admin/siswa/'+id, {
+        method:'PUT',
+        headers: { 'Content-Type':'application/json', 'Authorization':'Bearer '+token },
+        body: JSON.stringify({
+          nisn: nisn,
+          nama: document.getElementById('nama'+id).value,
+          sekolah: document.getElementById('sekolah'+id).value,
+          status: document.getElementById('status'+id).value
+        })
+      })
+      .then(res=>res.json())
+      .then(data=>{
+        alert(data.message);
+        loadSiswa(page);
+      });
+    }
+    function hapusSiswa(id) {
+      if (!confirm('Hapus siswa ini?')) return;
+      fetch('/api/admin/siswa/'+id, {
+        method:'DELETE',
+        headers: { Authorization:'Bearer '+token }
+      })
+      .then(res=>res.json())
+      .then(data=>{
+        alert(data.message);
+        loadSiswa(page);
+      });
+    }
+    function importExcel() {
+      const fileInput = document.getElementById('file');
+      if (!fileInput.files[0]) return alert('Pilih file Excel!');
+      const formData = new FormData();
+      formData.append('file', fileInput.files[0]);
+      fetch('/api/admin/import', {
+        method: 'POST',
+        headers: { Authorization:'Bearer '+token },
+        body: formData
+      })
+      .then(res => res.json())
+      .then(data => {
+        alert(data.message);
+        loadSiswa();
+      });
+    }
+    function exportExcel() {
+      fetch('/api/admin/export', {headers:{Authorization:'Bearer '+token}})
+      .then(resp=>resp.blob())
+      .then(blob=>{
+        let url = window.URL.createObjectURL(blob);
+        let a = document.createElement('a');
+        a.href = url;
+        a.download = 'siswa_export.xlsx';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+    }
+    function loadLog() {
+      fetch('/api/admin/log', {headers:{Authorization:'Bearer '+token}})
+      .then(res=>res.json())
+      .then(logs=>{
+        document.getElementById('log').textContent =
+          logs.map(l=>`${l.time} [${l.method}] ${l.url} ${l.user||''}`).join('\n');
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cek Kelulusan</title>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    #hasil { margin-top: 20px; }
+    input[type=text] { padding: 8px; font-size: 1.1em; }
+    button { padding: 7px 16px; font-size: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Cek Kelulusan</h1>
+  <input type="text" id="nisn" placeholder="Masukkan NISN" autofocus>
+  <button onclick="cekKelulusan()">Cek</button>
+  <div id="hasil"></div>
+  <script>
+    function cekKelulusan() {
+      const nisn = document.getElementById('nisn').value.trim();
+      if (!nisn) return alert('Masukkan NISN!');
+      fetch('/api/user/cek', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ nisn })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.nama)
+          document.getElementById('hasil').innerHTML =
+            `<p>Nama: <b>${data.nama}</b></p>
+             <p>Sekolah: <b>${data.sekolah}</b></p>
+             <p>Status: <b>${data.status}</b></p>`;
+        else
+          document.getElementById('hasil').innerHTML = `<p style="color:red;">${data.message}</p>`;
+      });
+    }
+    document.getElementById('nisn').addEventListener('keypress', e=>{
+      if (e.key === 'Enter') cekKelulusan();
+    });
+  </script>
+</body>
+</html>
