@@ -1475,5 +1475,19 @@
     "url": "/api/admin/dashboard",
     "user": null,
     "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T17:04:56.916Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T17:04:56.921Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
   }
 ]
