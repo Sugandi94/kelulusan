@@ -1623,5 +1623,33 @@
     "url": "/api/admin/export",
     "user": null,
     "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:06:05.817Z",
+    "method": "GET",
+    "url": "/api/admin/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:06:05.827Z",
+    "method": "GET",
+    "url": "/api/admin/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:06:09.097Z",
+    "method": "GET",
+    "url": "/api/admin/export",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-25T16:06:11.444Z",
+    "method": "GET",
+    "url": "/api/admin/export",
+    "user": null,
+    "ip": "::1"
   }
 ]

@@ -123,8 +123,20 @@ router.post('/import', authenticateToken, upload.single('file'), (req, res) => {
 
 // Export data siswa ke Excel
 router.get('/export', authenticateToken, (req, res) => {
-  const data = loadSiswa().filter(s=>!s.deleted);
-  const ws = xlsx.utils.json_to_sheet(data.map(({id, deleted, ...rest})=>rest));
+  let data = loadSiswa().filter(s => !s.deleted && s.importedBy === req.user.username);
+  const { q, page = 1, limit = 20 } = req.query;
+  if (q) {
+    data = data.filter(
+      (s) =>
+        s.nama.toLowerCase().includes(q.toLowerCase()) ||
+        s.nisn.includes(q) ||
+        s.sekolah.toLowerCase().includes(q.toLowerCase())
+    );
+  }
+  const start = (page - 1) * limit;
+  const end = start + parseInt(limit);
+  const slice = data.slice(start, end);
+  const ws = xlsx.utils.json_to_sheet(slice.map(({ id, deleted, ...rest }) => rest));
   const wb = xlsx.utils.book_new();
   xlsx.utils.book_append_sheet(wb, ws, 'Siswa');
   const file = path.join('uploads', `siswa_export_${Date.now()}.xlsx`);
