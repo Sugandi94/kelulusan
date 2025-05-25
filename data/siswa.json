@@ -1,6 +1,528 @@
 [
   {
-    "id": "bd4ff0fc-25a8-454f-a6cf-825c546507bc",
+    "id": "7d217a8e-daae-481f-8143-81899787040e",
+    "nisn": "3111824723",
+    "nama": "BAIHAKI KHAIZAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "492d5961-30b8-4040-8086-dcfe6874f9c8",
+    "nisn": "3132789910",
+    "nama": "FAJAR RAMADHAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "4d88a6df-0622-4b22-a1c2-3d825a4f7391",
+    "nisn": "0139402262",
+    "nama": "FIQRI RASYDAN AHNAF",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "54752900-71a4-4627-8262-47834355cd66",
+    "nisn": "0123061016",
+    "nama": "FITRI YANI JUNAIDY",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "3b708cd2-bdf2-43c9-890e-471a8dbf6a04",
+    "nisn": "0133324236",
+    "nama": "HABIBUROHMAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "a8c9e881-4d39-4e6d-aa11-e818d43c1b71",
+    "nisn": "3122492870",
+    "nama": "ILSYAN RAHMADAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "28f791b7-f6cd-4fed-982a-923ed7f616eb",
+    "nisn": "3134906195",
+    "nama": "KHAYLA NURMASYITHA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "ab2ccb44-38a0-4a72-94aa-401fd5be71b6",
+    "nisn": "3134193661",
+    "nama": "LUTHFI ADI NASIR",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "ee4951ad-108e-4869-840e-bbf53f21a4c2",
+    "nisn": "3136538650",
+    "nama": "MAULANA IBNU AKIL",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "6fb8e410-f3d7-4875-97c9-21c7c4bbc17c",
+    "nisn": "3121152886",
+    "nama": "NAZRIL FIRMANSYAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "dddbece6-e74e-4d8a-88f3-776a1d92e2b9",
+    "nisn": "3134258438",
+    "nama": "NURUL HAMIDAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "18ebde05-a368-4950-9ca0-12f8bc6080b2",
+    "nisn": "3133576965",
+    "nama": "RAYHAN AL FATIH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "a10007e6-8d04-4cb0-a0bf-1d1ff144cd9c",
+    "nisn": "3132895164",
+    "nama": "REIHAN A'RAFA WIJAYA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "7689494b-5f53-468b-b29a-597865ef38a0",
+    "nisn": "3133222357",
+    "nama": "RIAN HIDAYAT",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "355ad3d6-e417-44db-979f-31654b5569e0",
+    "nisn": "3127448362",
+    "nama": "ROVI ARANDI ILHAM",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "509aa002-15ab-43de-a968-7dad6cc9126a",
+    "nisn": "3127763048",
+    "nama": "ZULHUTNI ROZZAK",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "4c046dde-dd9e-42f3-8072-0c25c95bf6fe",
+    "nisn": "3139380299",
+    "nama": "CINDY FADILLAH MAYZAHRAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "fdc3df22-2d90-41da-9781-b36ebc6690f6",
+    "nisn": "3111222372",
+    "nama": "CRISTIAN FERNANDO MANALU",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "909fd03b-a0e7-4219-b925-1a76c2ccb721",
+    "nisn": "0121105556",
+    "nama": "DEDEK PUTRI CHRISTIANI SINAGA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "a9a83f6c-d987-4fd5-8061-b4e1a5d65c00",
+    "nisn": "0136579139",
+    "nama": "FITIYA KHAIRUNNISA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "0463364e-1e63-40f8-ac23-75d929a0d6a0",
+    "nisn": "3135757967",
+    "nama": "HAFIZH ADRIEANO",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "96fcc282-55b6-42dd-8152-206ec6eb53c8",
+    "nisn": "3136048662",
+    "nama": "JEFRY RAMADAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "65d8560c-1926-41da-8e41-253bd72e456e",
+    "nisn": "3132719362",
+    "nama": "NUR HAFIZAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "435d69d5-fb52-4f27-ba66-496c1ce5e13d",
+    "nisn": "0138083635",
+    "nama": "NUR INDA SARI",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "66c081fc-5687-4c23-a828-92a8fbe2fa18",
+    "nisn": "3135104155",
+    "nama": "RIBKA ALONRA BR SIREGAR",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "232abf4b-3cf9-4df3-951b-dfb05dc8dde8",
+    "nisn": "0137602829",
+    "nama": "SYIFANA YASMIN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "3060f08d-529e-4db3-9698-a944055eb73c",
+    "nisn": "3136780165",
+    "nama": "ULFAH FAUZIYAH HENDRI",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "0006b051-2365-457c-ab03-d2e447652276",
+    "nisn": "3137499424",
+    "nama": "YOSEP TIMOTHI TINAMBUNAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "d1ba9df3-ffa6-445a-a6ef-06712b54d18b",
+    "nisn": "0126886653",
+    "nama": "ZEFANIA HAREFA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin1",
+    "deleted": true
+  },
+  {
+    "id": "3541d176-64b0-4629-bea4-fda26fe3f397",
+    "nisn": "3111824723",
+    "nama": "BAIHAKI KHAIZAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "416e4f3d-5270-4cf3-a925-26f820e73cec",
+    "nisn": "3132789910",
+    "nama": "FAJAR RAMADHAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "52044646-3378-4eea-b50b-d8a7e3759213",
+    "nisn": "0139402262",
+    "nama": "FIQRI RASYDAN AHNAF",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "90183f33-2e3b-4ccb-b427-cf00709242c5",
+    "nisn": "0123061016",
+    "nama": "FITRI YANI JUNAIDY",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "613f7650-3e07-4915-8a29-035048291140",
+    "nisn": "0133324236",
+    "nama": "HABIBUROHMAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "ff4ddb01-f9e8-4182-953e-308a3533638b",
+    "nisn": "3122492870",
+    "nama": "ILSYAN RAHMADAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "3660809c-37b0-427e-b2fe-e1edde5ee148",
+    "nisn": "3134906195",
+    "nama": "KHAYLA NURMASYITHA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "6eab42be-08ca-4d18-84c0-4069cfdd06cf",
+    "nisn": "3134193661",
+    "nama": "LUTHFI ADI NASIR",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "bc3269b8-0e0a-4e2c-872e-6d040f544ec7",
+    "nisn": "3136538650",
+    "nama": "MAULANA IBNU AKIL",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "e817afad-d615-49d3-922f-cc843f4e8e62",
+    "nisn": "3121152886",
+    "nama": "NAZRIL FIRMANSYAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "f5080a73-ab1c-48c3-ad67-94ed0f7b0062",
+    "nisn": "3134258438",
+    "nama": "NURUL HAMIDAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "43b2e702-54cb-4227-a972-af9214ee9b77",
+    "nisn": "3133576965",
+    "nama": "RAYHAN AL FATIH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "2b1e9294-670e-4d66-b775-e7a9287b2a43",
+    "nisn": "3132895164",
+    "nama": "REIHAN A'RAFA WIJAYA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "6ce177c8-ba61-400b-be61-3e357f50e162",
+    "nisn": "3133222357",
+    "nama": "RIAN HIDAYAT",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "0306b06c-bad4-4e24-832f-eb597deef1b0",
+    "nisn": "3127448362",
+    "nama": "ROVI ARANDI ILHAM",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "e49afb42-92ac-4110-9f67-b440df321960",
+    "nisn": "3127763048",
+    "nama": "ZULHUTNI ROZZAK",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "f7f7740d-a7f5-44ae-a612-8758135ef47e",
+    "nisn": "3139380299",
+    "nama": "CINDY FADILLAH MAYZAHRAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "2d134230-4c58-469a-a672-a611875a7d43",
+    "nisn": "3111222372",
+    "nama": "CRISTIAN FERNANDO MANALU",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "e4f833b1-f0b2-453e-9bf3-d4558f2704cd",
+    "nisn": "0121105556",
+    "nama": "DEDEK PUTRI CHRISTIANI SINAGA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "be7636c7-9ad0-4f72-872e-a16fbbb6cae2",
+    "nisn": "0136579139",
+    "nama": "FITIYA KHAIRUNNISA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "f05fd533-5d46-4e32-a940-505ba2fc82dc",
+    "nisn": "3135757967",
+    "nama": "HAFIZH ADRIEANO",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "520c6199-d506-453c-849e-a6ae512c8826",
+    "nisn": "3136048662",
+    "nama": "JEFRY RAMADAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "1342f0e2-139f-4a18-bdb4-5d09a5cc5159",
+    "nisn": "3132719362",
+    "nama": "NUR HAFIZAH",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "89e39ea4-4222-4971-a16b-4f6eeceb3d5c",
+    "nisn": "0138083635",
+    "nama": "NUR INDA SARI",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "2a007f0b-db74-4889-a5a0-e817c2f61b6f",
+    "nisn": "3135104155",
+    "nama": "RIBKA ALONRA BR SIREGAR",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "8fc4215c-2225-498d-8377-12780ad1cb5e",
+    "nisn": "0137602829",
+    "nama": "SYIFANA YASMIN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "7527b8c4-dd8f-41e0-9167-cd7830b4bdf7",
+    "nisn": "3136780165",
+    "nama": "ULFAH FAUZIYAH HENDRI",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "5dba2c3f-664f-4efd-aa64-c7213c6a1f6c",
+    "nisn": "3137499424",
+    "nama": "YOSEP TIMOTHI TINAMBUNAN",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "d300430d-1692-43b0-8b69-e7d60326eff4",
+    "nisn": "0126886653",
+    "nama": "ZEFANIA HAREFA",
+    "sekolah": "UPT SD NEGERI 067953",
+    "status": "LULUS",
+    "importedBy": "admin",
+    "deleted": true
+  },
+  {
+    "id": "de503db4-e033-4545-aa12-18bc519af7b5",
     "nisn": "3111824723",
     "nama": "BAIHAKI KHAIZAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -8,7 +530,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "3392528e-d973-41eb-aed2-e765f5537566",
+    "id": "77b19708-342a-4e2e-a2c7-c67f5921a8e4",
     "nisn": "3132789910",
     "nama": "FAJAR RAMADHAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -16,7 +538,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "7bdd7849-4f7b-43c5-bfff-9ffbd3bc7eb0",
+    "id": "a3da610e-9fb7-4c8b-9346-7d370a7a6099",
     "nisn": "0139402262",
     "nama": "FIQRI RASYDAN AHNAF",
     "sekolah": "UPT SD NEGERI 067953",
@@ -24,7 +546,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "e2aa2bec-5791-42a2-a891-8a9e7a881c24",
+    "id": "9c03830b-23e1-4b05-8e50-b37f9a85009a",
     "nisn": "0123061016",
     "nama": "FITRI YANI JUNAIDY",
     "sekolah": "UPT SD NEGERI 067953",
@@ -32,7 +554,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "f4f3ab5f-894a-4053-b028-638b43cea468",
+    "id": "6fd01b05-11d0-4943-9610-46aa768db871",
     "nisn": "0133324236",
     "nama": "HABIBUROHMAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -40,7 +562,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "77986ed3-a574-4598-b201-3ef99730677f",
+    "id": "79e48a39-f3fc-4db2-b084-8b77f63bbe89",
     "nisn": "3122492870",
     "nama": "ILSYAN RAHMADAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -48,7 +570,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "43fea8bd-8d89-41e4-9fc3-cddd6902d6a2",
+    "id": "cc9dc775-153d-459b-a95d-4372832443ef",
     "nisn": "3134906195",
     "nama": "KHAYLA NURMASYITHA",
     "sekolah": "UPT SD NEGERI 067953",
@@ -56,7 +578,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "e882a88a-ea05-4068-aa93-2a42025ef073",
+    "id": "9003fb59-25d4-483d-b40f-2ccf0176554a",
     "nisn": "3134193661",
     "nama": "LUTHFI ADI NASIR",
     "sekolah": "UPT SD NEGERI 067953",
@@ -64,7 +586,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "cff7060c-e3ed-4d96-9c26-5e045ba0208a",
+    "id": "3e20da91-a5e7-4875-ace8-05ad29665dd8",
     "nisn": "3136538650",
     "nama": "MAULANA IBNU AKIL",
     "sekolah": "UPT SD NEGERI 067953",
@@ -72,7 +594,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "7f9e1586-6d88-478d-9061-ec3cc4722268",
+    "id": "005d3dd6-0627-4632-b534-c3df41fdd32c",
     "nisn": "3121152886",
     "nama": "NAZRIL FIRMANSYAH",
     "sekolah": "UPT SD NEGERI 067953",
@@ -80,7 +602,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "0a0d4cca-4d64-430e-93fa-aa9dae438a33",
+    "id": "80b1a836-695a-421a-b6f7-039070adee82",
     "nisn": "3134258438",
     "nama": "NURUL HAMIDAH",
     "sekolah": "UPT SD NEGERI 067953",
@@ -88,7 +610,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "a477180b-19be-4053-8558-fed58061a9f1",
+    "id": "e06d216e-6df4-4580-bba8-0092884bb2e2",
     "nisn": "3133576965",
     "nama": "RAYHAN AL FATIH",
     "sekolah": "UPT SD NEGERI 067953",
@@ -96,7 +618,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "5055b081-8e51-4410-8901-9a6cc803ff36",
+    "id": "5db6920b-1954-4bde-a881-d2fa4c863c49",
     "nisn": "3132895164",
     "nama": "REIHAN A'RAFA WIJAYA",
     "sekolah": "UPT SD NEGERI 067953",
@@ -104,7 +626,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "96527b58-82bd-47d4-82da-c523ade64dfd",
+    "id": "b38ba6a5-0f86-4662-be48-cfba9990382a",
     "nisn": "3133222357",
     "nama": "RIAN HIDAYAT",
     "sekolah": "UPT SD NEGERI 067953",
@@ -112,7 +634,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "2988298e-d3b2-4aad-a737-4b5ed4da6f5f",
+    "id": "7d303f34-445c-4fc4-bd67-15d990919db7",
     "nisn": "3127448362",
     "nama": "ROVI ARANDI ILHAM",
     "sekolah": "UPT SD NEGERI 067953",
@@ -120,7 +642,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "5f279834-0568-44db-a1a3-1b008aff72ac",
+    "id": "b407c9c1-e480-4df4-9dd2-dbb599d46f7e",
     "nisn": "3127763048",
     "nama": "ZULHUTNI ROZZAK",
     "sekolah": "UPT SD NEGERI 067953",
@@ -128,7 +650,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "94a1fe77-3919-48ab-81fd-29031687c953",
+    "id": "e73d56bc-6580-49c6-b7fe-5fd67ca8f321",
     "nisn": "3139380299",
     "nama": "CINDY FADILLAH MAYZAHRAH",
     "sekolah": "UPT SD NEGERI 067953",
@@ -136,7 +658,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "866c8b2e-b8a3-4f4d-bbd9-4b2b972283e7",
+    "id": "246f5b71-ff41-4bc7-9cd8-cceb621f7ede",
     "nisn": "3111222372",
     "nama": "CRISTIAN FERNANDO MANALU",
     "sekolah": "UPT SD NEGERI 067953",
@@ -144,7 +666,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "cea9d70f-0c12-4ac7-8e31-dabc364fe406",
+    "id": "d85ba527-e4b3-4b22-8084-d07e884efb55",
     "nisn": "0121105556",
     "nama": "DEDEK PUTRI CHRISTIANI SINAGA",
     "sekolah": "UPT SD NEGERI 067953",
@@ -152,7 +674,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "52f92514-cc10-4d57-a73c-b3946bffab9b",
+    "id": "37c266f0-3786-47df-8924-854ebcbc18bb",
     "nisn": "0136579139",
     "nama": "FITIYA KHAIRUNNISA",
     "sekolah": "UPT SD NEGERI 067953",
@@ -160,7 +682,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "5eddd436-fff6-4130-b1a3-53c226571fa4",
+    "id": "182b384c-476c-472b-8167-fb85c496f0e8",
     "nisn": "3135757967",
     "nama": "HAFIZH ADRIEANO",
     "sekolah": "UPT SD NEGERI 067953",
@@ -168,7 +690,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "e598352f-9cac-4766-aa46-e61ef8c16ccc",
+    "id": "1f300eac-77ae-417c-b364-f79de6efd9d3",
     "nisn": "3136048662",
     "nama": "JEFRY RAMADAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -176,7 +698,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "e9bcfcbf-5303-4338-b24e-568d4fc01567",
+    "id": "20eb878c-c840-4bdd-be0b-1549c4d32285",
     "nisn": "3132719362",
     "nama": "NUR HAFIZAH",
     "sekolah": "UPT SD NEGERI 067953",
@@ -184,7 +706,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "11162c99-8b9d-421c-bf1d-9e7817979364",
+    "id": "76a48434-5759-4e33-84c8-7295d7dcfc8f",
     "nisn": "0138083635",
     "nama": "NUR INDA SARI",
     "sekolah": "UPT SD NEGERI 067953",
@@ -192,7 +714,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "9b294052-40f6-4ad6-901f-113bfaddf69a",
+    "id": "d08a92aa-9ef0-42c1-a838-7d994ed1369d",
     "nisn": "3135104155",
     "nama": "RIBKA ALONRA BR SIREGAR",
     "sekolah": "UPT SD NEGERI 067953",
@@ -200,7 +722,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "ec4a084a-b695-4685-97df-d11b2844af3f",
+    "id": "94d7ada9-88db-4829-b18a-7c5e1fec19a6",
     "nisn": "0137602829",
     "nama": "SYIFANA YASMIN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -208,7 +730,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "5a945a4e-0452-488c-8161-15fa4bd8f22e",
+    "id": "8d1eb5db-1fe0-4439-8372-f035ca074adf",
     "nisn": "3136780165",
     "nama": "ULFAH FAUZIYAH HENDRI",
     "sekolah": "UPT SD NEGERI 067953",
@@ -216,7 +738,7 @@
     "importedBy": "admin"
   },
   {
-    "id": "cb6df290-ec1b-48fb-8a73-5941f0a090b0",
+    "id": "2680a3c3-4c4e-48f9-82a3-7395cb7de754",
     "nisn": "3137499424",
     "nama": "YOSEP TIMOTHI TINAMBUNAN",
     "sekolah": "UPT SD NEGERI 067953",
@@ -224,33 +746,11 @@
     "importedBy": "admin"
   },
   {
-    "id": "d43b01a4-7cc8-4342-9c9b-fff62d1e31c3",
+    "id": "a2e6657a-d8f4-4e8f-ba56-c6f2f6ff5a96",
     "nisn": "0126886653",
     "nama": "ZEFANIA HAREFA",
     "sekolah": "UPT SD NEGERI 067953",
     "status": "LULUS",
     "importedBy": "admin"
-  },
-  {
-    "id": "35a2537e-14a9-4216-8fce-f4a9a3b08b50",
-    "nisn": "1234567890",
-    "nama": "Sugandi",
-    "sekolah": "SDN 067250",
-    "status": "LULUS"
-  },
-  {
-    "id": "a75660ff-bf4b-4d10-a670-438f75c1bc01",
-    "nisn": "3154671776",
-    "nama": "SUGANDI",
-    "sekolah": "asa",
-    "status": "LULUS"
-  },
-  {
-    "id": "63e33bf5-3a6e-4366-a8d1-c9f1cf62da0d",
-    "nisn": "3132826196",
-    "nama": "SUGANDI",
-    "sekolah": "asdasd",
-    "status": "LULUS",
-    "importedBy": "admin1"
   }
 ]

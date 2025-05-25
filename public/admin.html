@@ -257,9 +257,10 @@
       .then(resp=>{
         total = resp.total;
         let html = `<table><tr>
-          <th>NISN</th><th>Nama</th><th>Sekolah</th><th>Status</th><th>Edit</th><th>Hapus</th></tr>`;
-        resp.data.forEach(s => {
+          <th>No</th><th>NISN</th><th>Nama</th><th>Sekolah</th><th>Status</th><th>Edit</th><th>Hapus</th></tr>`;
+        resp.data.forEach((s, index) => {
           html += `<tr>
+            <td>${(page-1)*limit + index + 1}</td>
             <td>${s.nisn}</td>
             <td><input type="text" value="${s.nama}" id="nama${s.id}"></td>
             <td><input type="text" value="${s.sekolah}" id="sekolah${s.id}"></td>

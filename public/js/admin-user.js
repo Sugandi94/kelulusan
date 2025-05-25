@@ -12,12 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!res.ok) throw new Error('Gagal mengambil data user');
       const users = await res.json();
       userTableBody.innerHTML = '';
-      users.forEach(user => {
+      users.forEach((user, index) => {
         const tr = document.createElement('tr');
+        const tdNo = document.createElement('td');
+        tdNo.textContent = index + 1;
         const tdUsername = document.createElement('td');
         tdUsername.textContent = user.username;
         const tdName = document.createElement('td');
         tdName.textContent = user.name || '';
+        tr.appendChild(tdNo);
         tr.appendChild(tdUsername);
         tr.appendChild(tdName);
         userTableBody.appendChild(tr);
