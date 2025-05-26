@@ -1,12 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const path = require('path');
 
 const userRoute = require('./routes/user');
 const adminRoute = require('./routes/admin');
 const logger = require('./middleware/logger');
 const errorHandler = require('./middleware/errorHandler');
+
+const path = require('path');
 
 const app = express();
 app.use(cors());
@@ -19,11 +20,9 @@ app.use(logger); // Logging aktivitas
 app.use('/api/user', userRoute);
 app.use('/ss', adminRoute);
 
-// Landing API info
+// Landing page serving index.html
 app.get('/', (req, res) => {
-  res.json({
-    message: "API Cek Kelulusan siap digunakan! Lihat /public/index.html atau /public/admin.html"
-  });
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.use(errorHandler);
