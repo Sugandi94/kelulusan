@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const userRoute = require('./routes/user');
 const adminRoute = require('./routes/admin');
+const superadminRoute = require('./routes/superadmin');
 const logger = require('./middleware/logger');
 const errorHandler = require('./middleware/errorHandler');
 
@@ -19,6 +20,7 @@ app.use(logger); // Logging aktivitas
 
 app.use('/api/user', userRoute);
 app.use('/ss', adminRoute);
+app.use('/superadmin', superadminRoute);
 
 // Landing page serving index.html
 app.get('/', (req, res) => {

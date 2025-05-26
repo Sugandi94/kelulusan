@@ -1,5 +1,12 @@
 [
   {
+    "username": "super",
+    "password": "$2a$10$Ap/PWPQ6IG2Gn4T19heIB.AoZKQj8Cp8iovHzsFiOVjTSx5Zj0Y2e",
+    "name": "Super User",
+    "role": "superadmin",
+    "accessLevel": "full"
+  },
+  {
     "username": "admin",
     "password": "$2a$10$F9KssnsEpfA8zmNvq4PjuefJHDcWE6ZHM3fg3OFK8EBOCVWkgpZGq",
     "name": "Super Admin"
@@ -32,7 +39,8 @@
   {
     "username": "Admin4",
     "name": "SD SWASTA AGIOS NIKITAS",
-    "password": "$2a$10$czXSajHeWDgV0RbKXqcyjOezBQZGll.i4pfwiZXm1FhdVgiQugsii"
+    "password": "$2a$10$czXSajHeWDgV0RbKXqcyjOezBQZGll.i4pfwiZXm1FhdVgiQugsii",
+    "role": "superadmin"
   },
   {
     "username": "Admin5",
