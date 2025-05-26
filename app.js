@@ -17,7 +17,7 @@ app.use('/uploads', express.static('uploads'));
 app.use(logger); // Logging aktivitas
 
 app.use('/api/user', userRoute);
-app.use('/api/admin', adminRoute);
+app.use('/ss', adminRoute);
 
 // Landing API info
 app.get('/', (req, res) => {
@@ -28,5 +28,18 @@ app.get('/', (req, res) => {
 
 app.use(errorHandler);
 
+const fs = require('fs');
+const uploadsDir = 'uploads';
+
+// Ensure uploads directory exists
+if (!fs.existsSync(uploadsDir)) {
+  fs.mkdirSync(uploadsDir);
+}
+
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server ready at http://localhost:${PORT}`));
+app.listen(PORT)
+  .on('listening', () => console.log(`Server ready at port ${PORT}`))
+  .on('error', (err) => {
+    console.error('Server failed to start:', err);
+    process.exit(1);
+  });

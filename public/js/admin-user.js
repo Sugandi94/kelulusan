@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function fetchUsers() {
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('/api/admin/users', {
+      const res = await fetch('/ss/users', {
         headers: { Authorization: 'Bearer ' + token }
       });
       if (!res.ok) throw new Error('Gagal mengambil data user');
@@ -16,13 +16,86 @@ document.addEventListener('DOMContentLoaded', () => {
         const tr = document.createElement('tr');
         const tdNo = document.createElement('td');
         tdNo.textContent = index + 1;
+
         const tdUsername = document.createElement('td');
-        tdUsername.textContent = user.username;
+        const usernameInput = document.createElement('input');
+        usernameInput.type = 'text';
+        usernameInput.value = user.username;
+        usernameInput.disabled = true;
+        tdUsername.appendChild(usernameInput);
+
         const tdName = document.createElement('td');
-        tdName.textContent = user.name || '';
+        const nameInput = document.createElement('input');
+        nameInput.type = 'text';
+        nameInput.value = user.name || '';
+        nameInput.disabled = true;
+        tdName.appendChild(nameInput);
+
+        const tdActions = document.createElement('td');
+
+        const editButton = document.createElement('button');
+        editButton.textContent = 'Edit';
+        editButton.classList.add('edit-btn');
+        editButton.onclick = () => {
+          if (editButton.textContent === 'Edit') {
+            usernameInput.disabled = false;
+            nameInput.disabled = false;
+            editButton.textContent = 'Save';
+            editButton.dataset.oldUsername = usernameInput.value; // store old username
+          } else {
+            // Save changes
+            const newUsername = usernameInput.value.trim();
+            const newName = nameInput.value.trim();
+            const oldUsername = editButton.dataset.oldUsername;
+            if (!newUsername) {
+              alert('Username tidak boleh kosong');
+              return;
+            }
+            fetch(`/ss/update-user/${encodeURIComponent(oldUsername)}`, {
+              method: 'PUT',
+              headers: {
+                'Content-Type': 'application/json',
+                Authorization: 'Bearer ' + localStorage.getItem('token')
+              },
+              body: JSON.stringify({ username: newUsername, name: newName })
+            })
+            .then(res => res.json())
+            .then(data => {
+              if (data.message) alert(data.message);
+              editButton.textContent = 'Edit';
+              usernameInput.disabled = true;
+              nameInput.disabled = true;
+              fetchUsers();
+            })
+            .catch(() => alert('Gagal menyimpan perubahan'));
+          }
+        };
+
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.classList.add('delete-btn');
+        deleteButton.onclick = () => {
+          if (confirm(`Hapus user ${user.username}?`)) {
+            fetch(`/ss/delete-user/${user.username}`, {
+              method: 'DELETE',
+              headers: { Authorization: 'Bearer ' + localStorage.getItem('token') }
+            })
+            .then(res => res.json())
+            .then(data => {
+              if (data.message) alert(data.message);
+              fetchUsers();
+            })
+            .catch(() => alert('Gagal menghapus user'));
+          }
+        };
+
+        tdActions.appendChild(editButton);
+        tdActions.appendChild(deleteButton);
+
         tr.appendChild(tdNo);
         tr.appendChild(tdUsername);
         tr.appendChild(tdName);
+        tr.appendChild(tdActions);
         userTableBody.appendChild(tr);
       });
     } catch (err) {
@@ -42,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('/api/admin/add-user', {
+      const res = await fetch('/ss/add-user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

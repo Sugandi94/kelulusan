@@ -191,4 +191,39 @@ router.get('/users', authenticateToken, (req, res) => {
   res.json(users);
 });
 
+// Delete admin user
+router.delete('/delete-user/:username', authenticateToken, (req, res) => {
+  const username = req.params.username;
+  let admins = loadAdmin();
+  if (username === req.user.username) {
+    return res.status(400).json({ message: 'Tidak dapat menghapus user sendiri' });
+  }
+  const idx = admins.findIndex(a => a.username === username);
+  if (idx === -1) return res.status(404).json({ message: 'User tidak ditemukan' });
+  admins.splice(idx, 1);
+  saveAdmin(admins);
+  res.json({ message: 'User berhasil dihapus' });
+});
+
+// Update admin user
+router.put('/update-user/:username', authenticateToken, async (req, res) => {
+  const oldUsername = req.params.username;
+  const { username, name } = req.body;
+  if (!username || !name) return res.status(400).json({ message: 'Username dan name harus diisi' });
+
+  let admins = loadAdmin();
+  const idx = admins.findIndex(a => a.username === oldUsername);
+  if (idx === -1) return res.status(404).json({ message: 'User tidak ditemukan' });
+
+  // Check if new username is already used by another user
+  if (username !== oldUsername && admins.find(a => a.username === username)) {
+    return res.status(400).json({ message: 'Username sudah digunakan' });
+  }
+
+  admins[idx].username = username;
+  admins[idx].name = name;
+  saveAdmin(admins);
+  res.json({ message: 'User berhasil diupdate' });
+});
+
 module.exports = router;

@@ -184,7 +184,7 @@
     });
 
     function login() {
-      fetch('/api/admin/login', {
+      fetch('/ss/login', {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
@@ -213,7 +213,7 @@
       document.getElementById('login-form').style.display = 'block';
     }
     function gantiPassword() {
-      fetch('/api/admin/change-password', {
+      fetch('/ss/change-password', {
         method: 'POST',
         headers: { 'Content-Type':'application/json', 'Authorization': 'Bearer '+token },
         body: JSON.stringify({
@@ -225,14 +225,14 @@
       .then(data=>alert(data.message));
     }
     function loadDashboard() {
-      fetch('/api/admin/dashboard', {headers: {Authorization:'Bearer '+token}})
+      fetch('/ss/dashboard', {headers: {Authorization:'Bearer '+token}})
       .then(res=>res.json()).then(d=>{
         document.getElementById('dashboard').innerHTML =
           `Total siswa: <b>${d.total}</b> | Lulus: <b>${d.lulus}</b> | Tidak Lulus: <b>${d.tidak}</b>`;
       });
     }
     function tambahSiswa() {
-      fetch('/api/admin/siswa', {
+      fetch('/ss/siswa', {
         method: 'POST',
         headers: { 'Content-Type':'application/json', 'Authorization':'Bearer '+token },
         body: JSON.stringify({
@@ -251,7 +251,7 @@
     function loadSiswa(p=1) {
       page = p;
       let q = document.getElementById('search').value;
-      fetch(`/api/admin/siswa?page=${page}&limit=${limit}&q=${encodeURIComponent(q)}`, {
+      fetch(`/ss/siswa?page=${page}&limit=${limit}&q=${encodeURIComponent(q)}`, {
         headers: { Authorization:'Bearer '+token }
       })
       .then(res=>res.json())
@@ -286,7 +286,7 @@
       });
     }
     function editSiswa(id, nisn) {
-      fetch('/api/admin/siswa/'+id, {
+      fetch('/ss/siswa/'+id, {
         method:'PUT',
         headers: { 'Content-Type':'application/json', 'Authorization':'Bearer '+token },
         body: JSON.stringify({
@@ -304,7 +304,7 @@
     }
     function hapusSiswa(id) {
       if (!confirm('Hapus siswa ini?')) return;
-      fetch('/api/admin/siswa/'+id, {
+      fetch('/ss/siswa/'+id, {
         method:'DELETE',
         headers: { Authorization:'Bearer '+token }
       })
@@ -319,7 +319,7 @@
       if (!fileInput.files[0]) return alert('Pilih file Excel!');
       const formData = new FormData();
       formData.append('file', fileInput.files[0]);
-      fetch('/api/admin/import', {
+      fetch('/ss/import', {
         method: 'POST',
         headers: { Authorization:'Bearer '+token },
         body: formData
@@ -331,7 +331,7 @@
       });
     }
     function exportExcel() {
-      fetch('/api/admin/export', {headers:{Authorization:'Bearer '+token}})
+      fetch('/ss/export', {headers:{Authorization:'Bearer '+token}})
       .then(resp=>resp.blob())
       .then(blob=>{
         let url = window.URL.createObjectURL(blob);
@@ -345,7 +345,7 @@
     }
     function hapusSemuaSiswa() {
       if (!confirm('Apakah Anda yakin ingin menghapus semua data siswa yang Anda impor?')) return;
-      fetch('/api/admin/siswa/delete-all', {
+      fetch('/ss/siswa/delete-all', {
         method: 'DELETE',
         headers: { Authorization: 'Bearer ' + token }
       })
@@ -356,7 +356,7 @@
       });
     }
     function loadLog() {
-      fetch('/api/admin/log', {headers:{Authorization:'Bearer '+token}})
+      fetch('/ss/log', {headers:{Authorization:'Bearer '+token}})
       .then(res=>res.json())
       .then(logs=>{
         document.getElementById('log').textContent =

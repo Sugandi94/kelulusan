@@ -1,11 +1,17 @@
 [
   {
     "username": "admin",
-    "password": "$2a$10$4VcdZrTvGEpzfv0eBvdNyezExUSoJQWNvkxAK0aW2jUY0vAvVIOvC"
+    "password": "$2a$10$F9KssnsEpfA8zmNvq4PjuefJHDcWE6ZHM3fg3OFK8EBOCVWkgpZGq",
+    "name": "Super Admin"
   },
   {
     "username": "admin1",
     "name": "Sugandi",
     "password": "$2a$10$XNoiFlCmKaTpxSpXu0pC/u4hel6dVmC9BSUH1Pl0Xuy/rCLT951Pq"
+  },
+  {
+    "username": "123",
+    "name": "123",
+    "password": "$2a$10$iK.HV4abuJfDvacirqzIo.IMQYPL5OgT40KafMB.XXOcs3Tb4uaZC"
   }
 ]
