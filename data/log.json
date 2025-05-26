@@ -2770,5 +2770,336 @@
     "url": "/ss/export",
     "user": null,
     "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T05:25:10.115Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3154671776"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T05:25:14.705Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3146801799"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T05:46:53.333Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3146801799"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T06:00:40.364Z",
+    "method": "GET",
+    "url": "/favicon.ico",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:18:44.797Z",
+    "method": "GET",
+    "url": "/favicon.ico",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:25.803Z",
+    "method": "POST",
+    "url": "/api/user/cek",
+    "body": {
+      "nisn": "3111824723"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:31.899Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:31.985Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:34.420Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:34.623Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:40:54.080Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:41:05.219Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:41:05.508Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:41:14.713Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:42:39.123Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:42:39.380Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:42:48.184Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:42:54.110Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:42.326Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:42.333Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:44.105Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:44.497Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:55.306Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:43:55.386Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:44:04.593Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:44:08.922Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:44:16.329Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:44:20.181Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:45:59.002Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:46:00.767Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:55:08.850Z",
+    "method": "POST",
+    "url": "/ss/import-admin",
+    "body": {},
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T09:55:15.754Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:18.815Z",
+    "method": "GET",
+    "url": "/favicon.ico",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:25.168Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:25.290Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:30.451Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:34.094Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:47.653Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:46:47.745Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:47:05.604Z",
+    "method": "POST",
+    "url": "/ss/login",
+    "body": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:47:05.909Z",
+    "method": "GET",
+    "url": "/ss/dashboard",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:47:05.917Z",
+    "method": "GET",
+    "url": "/ss/siswa?page=1&limit=10&q=",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:47:15.725Z",
+    "method": "GET",
+    "url": "/styles.css",
+    "user": null,
+    "ip": "::1"
+  },
+  {
+    "time": "2025-05-26T12:47:21.223Z",
+    "method": "GET",
+    "url": "/ss/users",
+    "user": null,
+    "ip": "::1"
   }
 ]

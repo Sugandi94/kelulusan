@@ -13,5 +13,280 @@
     "username": "123",
     "name": "123",
     "password": "$2a$10$iK.HV4abuJfDvacirqzIo.IMQYPL5OgT40KafMB.XXOcs3Tb4uaZC"
+  },
+  {
+    "username": "Admin1",
+    "name": "SD LENTERA KREASI CEMERLANG",
+    "password": "$2a$10$R7y0EP/BRz7XXRNfhLsblezuf6SGeMTz.InileBqzr/YCDHUMR7vy"
+  },
+  {
+    "username": "Admin2",
+    "name": "SD MUHAMMADIYAH 39 MEDAN",
+    "password": "$2a$10$PRkYbQ7WWOZl9Yhs5H02uO3tiNE0SJkn00l1qibpaZwWeNE9VX4de"
+  },
+  {
+    "username": "Admin3",
+    "name": "SD SWASTA PUTRA NEGERI",
+    "password": "$2a$10$nPR9P27MgqjUudNsPnTxTOYSXvQEFF5vKzowuTXeuZO1/mDw4PgiW"
+  },
+  {
+    "username": "Admin4",
+    "name": "SD SWASTA AGIOS NIKITAS",
+    "password": "$2a$10$czXSajHeWDgV0RbKXqcyjOezBQZGll.i4pfwiZXm1FhdVgiQugsii"
+  },
+  {
+    "username": "Admin5",
+    "name": "SD SWASTA AL- WASHLIYAH KM. 6",
+    "password": "$2a$10$.I28sx2oYQ5PX85D7uWf0evjAY/UlOuZscJrqlLFL8mYWKaKU9kFy"
+  },
+  {
+    "username": "Admin6",
+    "name": "SD SWASTA AMAL BAKTI I",
+    "password": "$2a$10$j6apLb9tLZbKrROz4qJXVurn7kRUnCR.Qzj9w/yutnR6w66KNfdke"
+  },
+  {
+    "username": "Admin7",
+    "name": "SD SWASTA ASUHAN JAYA",
+    "password": "$2a$10$VpSgRkqefTxP/z1YGvI9EuKwNBQSgy8UIGnmp2CtozYWrK5Od3oNu"
+  },
+  {
+    "username": "Admin8",
+    "name": "SD SWASTA ASUHAN RAYA",
+    "password": "$2a$10$XXo8Jl6fVN96JQi47Hxgb.wqyk/qhjkzjETDwBm88uFpQ5Zw4WMHO"
+  },
+  {
+    "username": "Admin9",
+    "name": "SD SWASTA BAHAGIA",
+    "password": "$2a$10$X5bQtOiEL9UimgXCMtucy.p/1mnHZ3Nym3zr1t9mtVtHmghr/E2MW"
+  },
+  {
+    "username": "Admin10",
+    "name": "SD SWASTA BAKTI II",
+    "password": "$2a$10$nmdH/Ff.hpZmmsAR2wHn2ufYv/ICTj4qHp0Vo.RjQCvorwUbsazCe"
+  },
+  {
+    "username": "Admin11",
+    "name": "SD SWASTA BANI ADAM AS",
+    "password": "$2a$10$xpZ6sADmlyyRzX5VWeXlVOkfEt5lA6NiWzm/1V.z5EJAqVXnQgEpi"
+  },
+  {
+    "username": "Admin12",
+    "name": "SD SWASTA GALILEO PLUS MABAR",
+    "password": "$2a$10$bZhYzid7zxyh5MKA/supd.0g.IMXtuhNt4cya.4ACXFjMzOFxOva2"
+  },
+  {
+    "username": "Admin13",
+    "name": "SD SWASTA HANDAYANI",
+    "password": "$2a$10$pHEo2cHF7EXo6hqOpaFpleygsR4v.cif.s/faf3S40FUbnGi9/U5i"
+  },
+  {
+    "username": "Admin14",
+    "name": "SD SWASTA HOSANA",
+    "password": "$2a$10$8765Slsg3ebUUC68QHJPquua5yfbyS2TR2OnFhHVTvPjPTTFDooWq"
+  },
+  {
+    "username": "Admin15",
+    "name": "SD SWASTA ISLAM AL-GHOFARI",
+    "password": "$2a$10$8t3HWklIYYCyzEV/nRd77u5Aj.EBBkUMzfIU661A10Mqd7Rt8IyD6"
+  },
+  {
+    "username": "Admin16",
+    "name": "SD SWASTA ISLAM SETIA NURUL AZMI",
+    "password": "$2a$10$kMk148vosXNMNI83fVwzHuM99i8BuYZleP5aoKZBAfOCzH5bwV6YC"
+  },
+  {
+    "username": "Admin17",
+    "name": "SD SWASTA ISLAM TERPADU ARISA",
+    "password": "$2a$10$vZO/mlDQK53Jt9igUi0pYeGE.lOjoWXvfLDRFb6ksADtjNrUW0l/m"
+  },
+  {
+    "username": "Admin18",
+    "name": "SD SWASTA ISLAM TERPADU GHAFA",
+    "password": "$2a$10$ZkU8L8U6p.BdJtJfP5GHhecjEuvbXSN9WMAQNuVjuK4BXsJ8MuPYu"
+  },
+  {
+    "username": "Admin19",
+    "name": "SD SWASTA MAYANG SARI",
+    "password": "$2a$10$Fn7iLaX2iaKBprmgKhJFc.yB9qoYs07vAx35POypcJdYPpAfiqKwG"
+  },
+  {
+    "username": "Admin20",
+    "name": "SD SWASTA NAHDHATUL ULAMA",
+    "password": "$2a$10$VvB1pSZU2imZleH98PxdCOy6V221vLYMrSypp6iapuIS/ycKrk5nO"
+  },
+  {
+    "username": "Admin21",
+    "name": "SD SWASTA PAB 27",
+    "password": "$2a$10$BfHl.cboruuO7rJcfd1kW.uqbHN.RxhS4aoCj.YjB80bdMA6AsBH2"
+  },
+  {
+    "username": "Admin22",
+    "name": "SD SWASTA PAB-25",
+    "password": "$2a$10$vkpdMfIp1bLqfLYxzploeO/PEakgqlfw.j9mytogNAH.WXuDost7m"
+  },
+  {
+    "username": "Admin23",
+    "name": "SD SWASTA PELITA",
+    "password": "$2a$10$j/h2Kql7lC3BY/Zg7iiXZes9lHlEFLZqSTY28.QeUSQcshIo62l82"
+  },
+  {
+    "username": "Admin24",
+    "name": "SD SWASTA PELITA KASIH",
+    "password": "$2a$10$WE0rHhWBpf49abvRn.mBceZj.ZHliPwFFwbKVf5cBWsl2mVRLU4Cm"
+  },
+  {
+    "username": "Admin25",
+    "name": "SD SWASTA SINAR PEMBAHARUAN HIDUP",
+    "password": "$2a$10$dN4/IqxWshVG1OlU3ozsruAsjTSllOM9f9UzyavF5wrIgYW2IWLIy"
+  },
+  {
+    "username": "Admin26",
+    "name": "SD SWASTA SUNRISE KIDS",
+    "password": "$2a$10$/fDC1aU/4r173buzg3ni6uwte63C4uzO77Bcog6OW0sh2Kn4vtNgG"
+  },
+  {
+    "username": "Admin27",
+    "name": "SD SWASTA SURYA BAKTI",
+    "password": "$2a$10$Lgo..WZ1F1eiygx3GJfqjeiJpl1y5tSe2LD3RrKOx19XJL03DsNnu"
+  },
+  {
+    "username": "Admin28",
+    "name": "SD SWASTA YABES SCHOOL",
+    "password": "$2a$10$.kgTRHodvvCAYjtKf2Kv5O6hez120g3M4lPLdlgd.ip4rae3BAIfC"
+  },
+  {
+    "username": "Admin29",
+    "name": "SDS AIRLANGGA",
+    "password": "$2a$10$5LFkhu4UBrTPs1AjKicv1uoBXnvLxuT7nkE7DvUckevV3fflAKqcK"
+  },
+  {
+    "username": "Admin30",
+    "name": "SDS AL WASHLIYAH 27",
+    "password": "$2a$10$Yk83qEFhKGpGRVMIlbcE0OIaoBMzXKiTPcRwDmJgUMZjB44RUDD92"
+  },
+  {
+    "username": "Admin31",
+    "name": "SDS AMALYATUL HUDA",
+    "password": "$2a$10$oSsubiSOLydc6P8n4oh3SurjL3PQI/2WvvlW3uVuFzm0unRfXTgk."
+  },
+  {
+    "username": "Admin32",
+    "name": "SDS BINA SATRIA MULIA",
+    "password": "$2a$10$Y6PoeBKg7hPlfxveQ4eOa.JJmK.njBlvw2eiWhDt//MNS3QzU7gOC"
+  },
+  {
+    "username": "Admin33",
+    "name": "SDS BUDI MULIA",
+    "password": "$2a$10$QQ7XuPnZ6XFalkRYftuq4.ttLRj31sLqvH36bu/IZEfk0dIw07ttq"
+  },
+  {
+    "username": "Admin34",
+    "name": "SDS HANG TUAH-2 TITIPAPAN",
+    "password": "$2a$10$nVDTNtVTFBQ7GC2xU.MSUe4EttllDGOI42wxM8IC8FDiGGs0g7m2u"
+  },
+  {
+    "username": "Admin35",
+    "name": "SDS TRI MURNI",
+    "password": "$2a$10$.k.51smLwdhA4vapFW8PFe5Cgk6FElCk.DzQ3GKibeaX77EASAMb2"
+  },
+  {
+    "username": "Admin36",
+    "name": "UPT SD NEGERI 060940",
+    "password": "$2a$10$BTquHlYOwpnkoQ501Ciyfu282uUpcRe50kNyG0KkqmU.cutXk1hDm"
+  },
+  {
+    "username": "Admin37",
+    "name": "UPT SD NEGERI 060941",
+    "password": "$2a$10$RbMLHmLTQPSld50XdTXDCufmeogLwUANvjqLF0tEdJg4XBnNzNFc."
+  },
+  {
+    "username": "Admin38",
+    "name": "UPT SD NEGERI 060942",
+    "password": "$2a$10$sDtI3CzIJJisfHsorVx8oODMku7wxwLFaM8Du8xKDMpvPt2m.oQ4e"
+  },
+  {
+    "username": "Admin39",
+    "name": "UPT SD NEGERI 060943",
+    "password": "$2a$10$K1b705yezlDuWiwh.OiMyeLF6AnlrHXw/dzQ8Y1zIXD8.Vz5Sosom"
+  },
+  {
+    "username": "Admin40",
+    "name": "UPT SD NEGERI 060944",
+    "password": "$2a$10$Kk2b5NQ6x2CswHnVapFRS.XSVyNI8mKePJIQaZ5prpUMaU5MHJfC2"
+  },
+  {
+    "username": "Admin41",
+    "name": "UPT SD NEGERI 060946",
+    "password": "$2a$10$ACisa92u80kaRoA0z584beZUQ1D/ef4IdbQXbBxOphuRbFN25we3K"
+  },
+  {
+    "username": "Admin42",
+    "name": "UPT SD NEGERI 060947",
+    "password": "$2a$10$Rurpl99smiZgeifanCRcYuINJ68hyDSI9vu2vLzufFoyf6pwV0Z.i"
+  },
+  {
+    "username": "Admin43",
+    "name": "UPT SD NEGERI 064010",
+    "password": "$2a$10$m/W5rlNMkHzBIQXZL7UGPurVpxodKx1gvmr0v9N6pul9LonD3ig7e"
+  },
+  {
+    "username": "Admin44",
+    "name": "UPT SD NEGERI 064011",
+    "password": "$2a$10$4i7elCF/.H3Z3WSt/GQjP.CGGipJx.r3iX1ACWTSXYZkwjjZgcoc."
+  },
+  {
+    "username": "Admin45",
+    "name": "UPT SD NEGERI 064993",
+    "password": "$2a$10$9o.rHcCNzNUGE6UCKDH5Qe5sX0pqQj7VAMuBgd4UMF9fLu8xq3tx6"
+  },
+  {
+    "username": "Admin46",
+    "name": "UPT SD NEGERI 064995",
+    "password": "$2a$10$XgFciD9CVASw11gHKLd7qeduP3Mu2o2sNoLG8As5Qxz8VZDMApxou"
+  },
+  {
+    "username": "Admin47",
+    "name": "UPT SD NEGERI 066434",
+    "password": "$2a$10$8gljR2Jz0dwXI4BM.8rF0.iQM2vPxU5s348ujyYbp3r8rNNnhK1Ci"
+  },
+  {
+    "username": "Admin48",
+    "name": "UPT SD NEGERI 066661",
+    "password": "$2a$10$az.Ek0ClGcVROHW3ZL1BKeVEHV6ZhwxkSgboSWQ8DmCag0ELcDp36"
+  },
+  {
+    "username": "Admin49",
+    "name": "UPT SD NEGERI 067250",
+    "password": "$2a$10$IchI/k1Tsgxs5ArW2eQzCOG40HZoXLg2VEsU4tP3HXb1u1.tF9NIK"
+  },
+  {
+    "username": "Admin50",
+    "name": "UPT SD NEGERI 067251",
+    "password": "$2a$10$JARehNSOIDyJUDgkMIQM6OgP25uKYoExH7wck/i0arofBtrcNnUi6"
+  },
+  {
+    "username": "Admin51",
+    "name": "UPT SD NEGERI 067252",
+    "password": "$2a$10$0w00mAfWUCcukMrnwJyUT.ccF0oskpeOHgaZguwT5a60Q5mIeVUum"
+  },
+  {
+    "username": "Admin52",
+    "name": "UPT SD NEGERI 067253",
+    "password": "$2a$10$eAeIU.ZtX4QUNENu2THl.uq/9ty242BCJHGKx7Ch1Ns.aaRCLn8VS"
+  },
+  {
+    "username": "Admin53",
+    "name": "UPT SD NEGERI 067254",
+    "password": "$2a$10$4ei51wKQEALnl.dJ5wEqJOP3aX6sWJlSVVA2V9L02NQePSD75/9E."
+  },
+  {
+    "username": "Admin54",
+    "name": "UPT SD NEGERI 067255",
+    "password": "$2a$10$bUFCH4VrFahjhfO27cBtc.d0aoNWUSp9XPEHkzSlct2sNFAiF/X/G"
+  },
+  {
+    "username": "Admin56",
+    "name": "UPT SD NEGERI 068073",
+    "password": "$2a$10$vrmt8iUeRnN3vMkX8wGf4eYODw4.i5LK5b.BcIyVunVY731a2s6R."
   }
 ]

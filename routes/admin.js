@@ -226,4 +226,31 @@ router.put('/update-user/:username', authenticateToken, async (req, res) => {
   res.json({ message: 'User berhasil diupdate' });
 });
 
+// Import admin users from Excel
+router.post('/import-admin', authenticateToken, upload.single('file'), async (req, res) => {
+  console.log('Import admin route called');
+  console.log('File:', req.file);
+  try {
+    const workbook = xlsx.readFile(req.file.path);
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    const imported = xlsx.utils.sheet_to_json(sheet);
+    // Format harus: username, name, password
+    let admins = loadAdmin();
+    let count = 0;
+    for (const row of imported) {
+      if (!row.username || !row.name || !row.password) continue;
+      if (!admins.find(a => a.username === row.username)) {
+        const hashedPassword = await bcrypt.hash(row.password.toString(), 10);
+        admins.push({ username: row.username, name: row.name, password: hashedPassword });
+        count++;
+      }
+    }
+    saveAdmin(admins);
+    res.json({ message: `Import berhasil (${count} user baru)` });
+  } catch (error) {
+    console.error('Error importing admin:', error);
+    res.status(500).json({ message: 'Gagal mengimpor data admin', error: error.message });
+  }
+});
+
 module.exports = router;

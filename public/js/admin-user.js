@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const addUserForm = document.getElementById('addUserForm');
+  const importUserForm = document.getElementById('importUserForm');
+  const importFileInput = document.getElementById('importFile');
   const userTableBody = document.querySelector('#userTable tbody');
 
   // Fetch and display user list
@@ -127,6 +129,36 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!res.ok) throw new Error(data.message || 'Gagal menambah user');
       alert(data.message);
       addUserForm.reset();
+      fetchUsers();
+    } catch (err) {
+      alert(err.message);
+    }
+  });
+
+  // Import users from Excel
+  importUserForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (importFileInput.files.length === 0) {
+      alert('Pilih file Excel terlebih dahulu');
+      return;
+    }
+    const file = importFileInput.files[0];
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const token = localStorage.getItem('token');
+      const res = await fetch('/ss/import-admin', {
+        method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + token
+        },
+        body: formData
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.message || 'Gagal mengimpor user');
+      alert(data.message);
+      importUserForm.reset();
       fetchUsers();
     } catch (err) {
       alert(err.message);
